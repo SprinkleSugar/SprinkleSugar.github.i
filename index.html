@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Circle </title>
+</head>
+<body>
+<canvas id="myCanvas" width="300" height="300" style="border:1px solid #00CCFF;">
+</canvas>
+
+</body>
+
+<script>
+
+//Circle #1 Code
+	var canvas = document.getElementById("myCanvas");
+	var context = canvas.getContext("2d");
+		context.beginPath();
+		context.lineWidth = 3
+		context.fill();
+		context.fillStyle = "blue";
+		context.arc(150,150,40,0,2*Math.PI);
+		context.stroke();
+		context.strokeStyle = "pink";
+		context.fill();
+		context.stroke();
+
+
+</script>
+
+
+</html>
